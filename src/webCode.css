@@ -1,0 +1,15 @@
+/*
+// 2017-03-18
+// Copyright (c) 2017 Nimzozo
+*/
+
+.webCode-css, .webCode-html, .webCode-js {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    margin: 4px;
+    padding: 4px;
+    white-space: pre;
+}
