@@ -1,15 +1,32 @@
 /*
-// 2017-03-18
+// 2017-12-01
 // Copyright (c) 2017 Nimzozo
 */
 
-.webCode-css, .webCode-html, .webCode-js {
+.webCode {
     display: inline-block;
     vertical-align: top;
     font-family: "Lucida Console", Monaco, monospace;
-    background-color: whitesmoke;
-    border: 1px solid grey;
+    background-color: grey;
+    color: white;
     margin: 4px;
     padding: 4px;
     white-space: pre;
+}
+
+pre {
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    white-space: pre;
+    margin: 0;
+}
+
+.webCode-html-attribute {
+    color: orange;
+}
+.webCode-html-string {
+    color: greenyellow;
+}
+.webCode-html-tag {
+    color: orangered;
 }
